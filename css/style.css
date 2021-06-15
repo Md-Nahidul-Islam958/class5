@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #333;
+}
+img{
+	max-width: 100%;
+}
+header{
+
+padding: 50px 0;
+}
+.container{
+
+width: 1200px;
+
+margin: auto;
+
+
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.col-1-1{
+    width: 100%;
+    flex: 0 0 auto;
+    padding: 100px;
+}
+.col-2-1{
+    width: 50%;
+    flex: 0 0 auto;
+    padding: 50px;
+    /* list-style-type: none; */
+}
+
+.pad-left{
+	padding-left: 100px;
+}
+.pad-right{
+	padding-right: 100px;
+}
+
+.logo{
+
+width: 20%;
+}	
+.logo a{
+
+}
+.logo a img{
+
+}
+nav{
+
+width: 85%;
+
+flex: 0 0 auto;
+}
+nav ul{
+
+justify-content: flex-end;
+}
+nav ul li{
+
+list-style: none;
+}
+nav ul li a{
+
+color: #333;
+
+text-decoration: none;
+
+text-transform: uppercase;
+
+font-weight: 400;
+
+/* background-color: red; */
+
+padding: 10px 30px;
+transition-duration: 1s;
+
+/* display: block; */
+}
+nav ul li a:hover{
+
+background: #333;
+
+color: #fff;
+}
+.banner-section{}
+.banner-section img{
+	width: 100%;
+}
+.blog-section{}
+
+article{}
+article span{
+    text-transform: uppercase;
+    color: #3333338c;
+    display: block;
+}
+article h1{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+article h1 a:hover{}
+article p{
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+article a{
+    text-transform: uppercase;
+    color: #3339;
+    text-decoration: none;
+}
+article img{width: 100%;}
+
+footer{
+    background: #F0F0F0;
+}
+ul.footer-menu{
+    list-style-type: none;
+}
+ul.footer-menu li{}
+ul.footer-menu li a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+ul.footer-menu li a:hover{}
+
+ul.social-link{
+    /* justify-content: flex-end; */
+    list-style-type: none;
+}
+ul.social-link li{}
+ul.social-link li span{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px;
+    /* text-transform: uppercase; */
+    font-size: 14px;
+    font-weight: 600;
+}
+ul.social-link li a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+ul.social-link li a:hover{
+	background-color: #333;
+	color: #fff;
